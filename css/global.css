@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  background-color: #fd6e0e;
+  font-family: "Noto Sans", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 70px 40px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #666666;
+  font-size: 3.375rem;
+  font-weight: 700;
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 1140px;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
